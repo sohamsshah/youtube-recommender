@@ -1,0 +1,23 @@
+.chip{
+    background-color:white;
+    border-color: var(--primary-color);
+    border-style: solid;
+    height:30px;
+    width: 150px;
+    /* Rounded border */
+    border-radius: 9999px;
+    padding:0.5rem;
+    font-size:1.1rem;
+    font-weight: bold;
+}
+.chip:hover{
+    background-color:var(--primary-color);
+    border-color: white;
+    color:white;
+    transition: 0.3s;
+
+}
+
+.outer-chip{
+    padding-right: 3%;
+}
