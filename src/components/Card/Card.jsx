@@ -8,7 +8,7 @@ export default function Card(props){
             <h4><b>{props.channel.name}</b></h4> 
         <ul className="tags">
             {props.channel.tags.map((tag) => (
-        <li className="list-non-bullet tag list-item-inline">{tag}</li>
+        <li className="list-non-bullet tag list-item-inline">{tag+" "}</li>
         ))}
          </ul>
            
