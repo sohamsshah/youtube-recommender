@@ -1,21 +1,33 @@
 import React, {useState} from "react";
 import './App.css';
 import Chip from './components/Chip/Chip';
+import data from './data'
+const channels = Object.keys(data)
+
 
 
 function App() {
-  const [selectedChannel, setChannel] = useState("Web Development");
+  const [selectedCategory, setCategory] = useState("Web Development");
+
+  function categoryClickHandler(category){
+    setCategory(category);
+
+  }
+  console.log(selectedCategory);
+  
   return (
     <div className="App">
       <img className="logo" src="https://dwglogo.com/wp-content/uploads/2020/05/1200px-YouTube_logo.png" alt="logo"></img>
       <h2 className="heading">YouTube Recommendor</h2>
       <div className="chips">
-      
-      <Chip />
-      <Chip />
-      <Chip />
+      {channels.map((category) => (
+        <button className="chip-button" onClick={() => categoryClickHandler(category)}>
+        <Chip category={category} />
+        </button>
+      ))}
 
       </div>
+      
       
 
     </div>

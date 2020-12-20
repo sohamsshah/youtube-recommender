@@ -2,12 +2,9 @@
     background-color:white;
     border-color: var(--primary-color);
     border-style: solid;
-    height:30px;
-    width: 150px;
-    /* Rounded border */
     border-radius: 9999px;
-    padding:0.5rem;
-    font-size:1.1rem;
+    padding:1rem;
+    font-size:1rem;
     font-weight: bold;
 }
 .chip:hover{
@@ -15,9 +12,10 @@
     border-color: white;
     color:white;
     transition: 0.3s;
+    cursor: "pointer";
 
 }
 
 .outer-chip{
-    padding-right: 3%;
+    padding-right: 1%;
 }

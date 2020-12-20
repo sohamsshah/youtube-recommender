@@ -20,5 +20,15 @@
   display:flex;
   justify-content: center;
   padding-right:1.2rem;
-  
+
+}
+
+.chip-button{ 
+  border: none;
+  background-color: transparent;
+  border: 0px solid;
+}
+
+.chip-button:focus{
+  outline: none;
 }

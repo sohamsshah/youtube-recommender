@@ -3,7 +3,7 @@ export default function Chips(props){
     return(
         <div className="outer-chip">
         <div className="chip">
-            {props.name}
+            {props.category}
         </div>
         </div>
     )
