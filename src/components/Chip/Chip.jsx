@@ -1,5 +1,5 @@
 import './Chip.css'
-export default function Chips(props){
+export default function Chip(props){
     return(
         <div className="outer-chip">
         <div className="chip">

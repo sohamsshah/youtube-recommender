@@ -1,10 +1,9 @@
 import React, {useState} from "react";
 import './App.css';
 import Chip from './components/Chip/Chip';
+import Card from './components/Card/Card';
 import data from './data'
 const channels = Object.keys(data)
-
-
 
 function App() {
   const [selectedCategory, setCategory] = useState("Web Development");
@@ -25,8 +24,12 @@ function App() {
         <Chip category={category} />
         </button>
       ))}
-
       </div>
+      <div className="cards">
+      {data[selectedCategory].map((channel) => (
+        <Card channel={channel} />))}
+      </div>
+      
       
       
 

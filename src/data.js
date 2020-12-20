@@ -9,16 +9,16 @@ const data = {
       { name: "Traversy Media", url: "https://www.youtube.com/channel/UCNFmBuclxQPe57orKiQbyfA",
       tags: ["tutorials", "JavaScript"] },
       { name: "Web Dev Simplified", url: "https://www.youtube.com/channel/UCNFmBuclxQPe57orKiQbyfA",
-      tags: ["Mini projects", "tutorials"] },
+      tags: ["projects", "tutorials"] },
     ],
   
     "Machine Learning": [
         { name: "Sentdex", url: "https://www.youtube.com/channel/UCNFmBuclxQPe57orKiQbyfA",
         tags: ["python", "neural networks"] },
         { name: "Edureka", url: "https://www.youtube.com/channel/UCNFmBuclxQPe57orKiQbyfA",
-        tags: ["interview preps", "projects"] },
+        tags: ["interview", "projects"] },
         { name: "simplilearn", url: "https://www.youtube.com/channel/UCNFmBuclxQPe57orKiQbyfA",
-        tags: ["interview preps", "mathematics"] },
+        tags: ["interview", "mathematics"] },
     ],
     "Competitve Coding": [
         { name: "Aditya Verma", url: "https://www.youtube.com/channel/UCNFmBuclxQPe57orKiQbyfA",
@@ -30,7 +30,7 @@ const data = {
         { name: "Nick White", url: "https://www.youtube.com/channel/UCNFmBuclxQPe57orKiQbyfA",
         tags: ["Leetcode", "Java"] },
         { name: "Tech Dose", url: "https://www.youtube.com/channel/UCNFmBuclxQPe57orKiQbyfA",
-        tags: ["Leetcode", "interview preps"] },
+        tags: ["Leetcode", "interview"] },
         
     ]
   };
