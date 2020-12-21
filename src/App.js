@@ -26,9 +26,12 @@ function App() {
       ))}
       </div>
       <div className="cards">
-      {data[selectedCategory].map((channel) => (
+      {
+      data[selectedCategory].map((channel) => (
         <Card channel={channel} />))}
       </div>
+
+      
       
       
       
