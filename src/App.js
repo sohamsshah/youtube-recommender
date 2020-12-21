@@ -29,10 +29,7 @@ function App() {
       {
       data[selectedCategory].map((channel) => (
         <Card channel={channel} />))}
-      </div>
-
-      
-      
+      </div> 
       
       
 
