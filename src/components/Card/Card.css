@@ -1,4 +1,11 @@
+.outer-card{
+  padding:2rem;
+}
 
+.card{
+  width: 18rem;
+  padding:0.2rem;
+}
 
 .image{
   width:50%;
@@ -6,19 +13,39 @@
 }
 
 
+.card-body{
+  padding:0.5rem;
+}
+
+.card-title{
+  padding-top:0.5rem;
+}
+
+.card-footer{
+  background-color:white;
+}
+
+.tag{
+  padding:0.5rem;
+  color: white;
+  background-color: var(--almost-black);
+}
+
 .list-item-inline{
   display: inline;
   list-style-type: none;
   padding: 0.5rem;
 }
 
-.card-footer{
-  background-color: none;
-}
-
 .card-footer * {
   margin-right:15px;
   margin-bottom:15px;
+}
+
+.card-footer-link{
+color: var(--almost-black);
+font-weight:bold;
+text-decoration:underline;
 }
 
 
