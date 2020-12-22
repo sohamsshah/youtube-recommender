@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <img className="logo" src={youtubeLogo} alt="logo"></img>
-      <h2 className="heading">You<span className="youtube">Tube</span> Recommendor</h2>
+      <h2 className="heading">You<span className="youtube">Tube</span> Recommender</h2>
       <div className="chips">
       {channels.map((category) => (
         <button className="chip-button" onClick={() => categoryClickHandler(category)}>
