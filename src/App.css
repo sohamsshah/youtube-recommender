@@ -38,6 +38,6 @@
 .cards{
   display:flex;
   justify-content: center;
-  padding:2rem;
+  padding:5rem;
   flex-wrap: wrap;
 }

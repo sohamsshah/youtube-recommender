@@ -1,19 +1,20 @@
 import './Card.css'
 export default function Card(props){
     return(
-        <div class="outer-card" style={{padding:"2rem"}}>
-        <div class="card" style={{width: "18rem", padding:"2rem"}}>
-      <img class="card-img-top" src={props.channel.img} alt="Card image cap"></img>
+
+      <div class="outer-card" style={{padding:"2rem"}}>
+        <div class="card" style={{width: "18rem", padding:"1rem"}}>
+      <img class="card-img-top" src={props.channel.img} alt="Card"></img>
         <div class="card-body">
-          <h5 class="card-title"><h4><b>{props.channel.name}</b></h4> </h5>
-          <p class="card-text"><ul className="tags"> {`Tags:\n`} 
+          <h5 class="card-title" style={{paddingTop:"0.5rem"}}><h4><b>{props.channel.name}</b></h4> </h5>
+          <div class="card-footer" style={{backgroundColor:"white"}}> 
             {props.channel.tags.map((tag) => (
-        <li className="list-non-bullet tag list-item-inline">{tag+" "}</li>
+              <button style={{padding:"0.5rem", color:"white", backgroundColor:"#282828"}} type="button" class="btn btn-sm">{tag}</button>
         ))}
-         </ul></p>
-          <a href={props.channel.url} class="btn">Visit Channel</a>
+        </div>
+          <a href={props.channel.url} class="btn" style={{color:"#282828", fontWeight:"bold", textDecoration:"underline"}}>Visit Channel</a>
         </div>
         </div>
-  </div>
+  </div>   
     )
 }
