@@ -1,0 +1,42 @@
+ul{
+    padding-inline-start: 0px;
+
+}
+
+.footer{
+    background-color: var(--almost-black);
+    text-align: center;
+    color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    padding:2rem;
+}
+
+.footer h3 {
+    margin: 0.5rem;
+    font-weight: bold;
+    color: rgb(250, 102, 102);
+    
+}
+
+.footer .link{
+    color: white;
+}
+
+.list-non-bullet{
+    list-style-type: none;
+    
+}
+
+.list-item-inline{
+    display: inline;
+    padding-right: 0.5rem;
+
+}
+
+.heart{
+    font-size: 3rem;
+}
+
+.name{
+    color: thistle;
+}
